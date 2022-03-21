@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<style>
+  table {
+      border-collapse: collapse;
+  }
+  table, th, td {
+      border: 0.7px solid white;
+  }
+  th, td {
+      padding: 15px;
+      background-color: #E4AEC5;
+  }
+
+</style>
+<body>
+<table class="table" >
+  <thead>
+    <tr>
+      <th scope="row">Item Name</th>
+      <td><%= name %></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Category</th>
+      <td><%= category %></td>
+    </tr>
+    <tr>
+      <th scope="row">Price</th>
+      <td><%= price %></td>
+  </tbody>
+</table>
+</body>
+</html>
